@@ -1,0 +1,39 @@
+{
+  "clienti": [
+    {
+      "id": 1,
+      "nome": "Mario Rossi",
+      "città": "Roma",
+      "ordini": [
+        {
+          "id_ordine": 1001,
+          "data_ordine": "2023-01-15",
+          "totale": 250.75
+        },
+        {
+          "id_ordine": 1002,
+          "data_ordine": "2023-02-10",
+          "totale": 100.00
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Giulia Verdi",
+      "città": "Milano",
+      "ordini": [
+        {
+          "id_ordine": 1003,
+          "data_ordine": "2023-03-01",
+          "totale": 350.00
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Luca Bianchi",
+      "città": "Napoli",
+      "ordini": []
+    }
+  ]
+}

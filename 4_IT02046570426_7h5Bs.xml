@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<p:FatturaElettronica versione="FPR12" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 fatturaordinaria_v1.2.xsd ">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>02046570426</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>0</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>KRRH6B9</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>01227280466</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>LNZLCU65P14E715O</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>LENZI AUTO DI LENZI LUCA</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA BIENTINA, 59/61</Indirizzo>
+        <CAP>55011</CAP>
+        <Comune>ALTOPASCIO</Comune>
+        <Provincia>LU</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>02030360511</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>NRDFNC79D25A390G</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>NARDINI FRANCESCO</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA PIO BORRI</Indirizzo>
+        <NumeroCivico>10</NumeroCivico>
+        <CAP>52100</CAP>
+        <Comune>AREZZO</Comune>
+        <Provincia>AR</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <TerzoIntermediarioOSoggettoEmittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>02046570426</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>Namirial S.p.A</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+    </TerzoIntermediarioOSoggettoEmittente>
+    <SoggettoEmittente>TZ</SoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2024-02-12</Data>
+        <Numero>21/01</Numero>
+        <ImportoTotaleDocumento>122.00</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>TRASPORTO DEL 12-02-2024</Descrizione>
+        <Quantita>1.0000</Quantita>
+        <UnitaMisura>n.</UnitaMisura>
+        <PrezzoUnitario>100.0000</PrezzoUnitario>
+        <PrezzoTotale>100.0000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>LUOGO PRELIEVO  PISTOIA OFF. AUTOEQUIPE</Descrizione>
+        <Quantita>0.0000</Quantita>
+        <PrezzoUnitario>0.0000</PrezzoUnitario>
+        <PrezzoTotale>0.0000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>DESTINAZIONE  PESCIA OFF. BIEMMEGI</Descrizione>
+        <Quantita>0.0000</Quantita>
+        <PrezzoUnitario>0.0000</PrezzoUnitario>
+        <PrezzoTotale>0.0000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>AUTOVETTURA  CITROEN C1 TARGA FK507GZ</Descrizione>
+        <Quantita>0.0000</Quantita>
+        <PrezzoUnitario>0.0000</PrezzoUnitario>
+        <PrezzoTotale>0.0000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>100.00</ImponibileImporto>
+        <Imposta>22.00</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <GiorniTerminiPagamento>0</GiorniTerminiPagamento>
+        <DataScadenzaPagamento>2024-02-12</DataScadenzaPagamento>
+        <ImportoPagamento>122.00</ImportoPagamento>
+        <IBAN>IT15Z0707570080000000040043</IBAN>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>
